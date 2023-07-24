@@ -9,7 +9,7 @@
 
 <div class="app">
 	<Header />
-	<main class="h-full dark:bg-gray-800 py-4 px-7">
+	<main class="container dark:bg-gray-800 py-4 px-7">
 		{#if $isLoading}
 			<div in:blur={{ amount: 10 }} out:blur={{ amount: 10 }} class="flex h-screen overflow-hidden justify-center items-center">
 				<Spinner size="14" />
